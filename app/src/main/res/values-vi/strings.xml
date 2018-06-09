@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Note</string>
+    <string name="title_create_note">TẠO NOTE MỚI</string>
+    <string-array name="items">
+        <item>Tất cả</item>
+        <item>Hoàn thành</item>
+    </string-array>
+</resources>

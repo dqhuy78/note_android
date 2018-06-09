@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:paddingStart="30dp"
+    android:paddingEnd="30dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="40dp">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/title_create_note"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/noteContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Your new note?"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/noteDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="dd/mm/yyyy"
+        android:windowSoftInputMode="stateHidden"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/noteTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="12:00"
+        android:inputType="time"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/noteDate"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="-140dp"
+        android:text="Date"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/noteTime"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginBottom="-220dp"
+        android:text="Time"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/createNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/noteContent"
+        android:layout_marginTop="280dp"
+        android:background="@color/colorPrimary"
+        android:text="Create"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

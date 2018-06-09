@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string name="title_create_note">CREATE NEW NOTE</string>
+    <string-array name="items">
+        <item>All</item>
+        <item>Done</item>
+    </string-array>
+</resources>

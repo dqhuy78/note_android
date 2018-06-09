@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Note</string>
+    <string name="title_create_note">CREATE NEW NOTE</string>
+    <string-array name="items">
+        <item>All</item>
+        <item>Done</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
